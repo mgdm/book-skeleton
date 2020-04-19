@@ -1,0 +1,10 @@
+---
+header-includes:
+  - \usepackage[uppercase]{titlesec}
+  - \setsansfont{Intervogue}
+  - \titleformat{\chapter}[display]{\normalfont\sffamily\huge}{\MakeUppercase \chaptertitlename\ \thechapter}{20pt}{\Huge}
+  - \titleformat{\section}{\normalfont\sffamily\Large\bfseries}{\thesection}{1em}{}
+  - \titleformat{\subsection}{\normalfont\sffamily\large\bfseries}{\thesubsection}{1em}{}
+
+subparagraph: yes
+---
